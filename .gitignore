@@ -1,7 +1,5 @@
 # 构建文件
 build/
-**/build/
-*.o
-*.so
-*.a
-*.dylib
+
+# 可执行文件
+bin/
