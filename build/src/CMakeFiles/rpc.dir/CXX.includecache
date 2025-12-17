@@ -10,10 +10,6 @@
 rpcconfig.h
 ../src/include/rpcconfig.h
 
-../src/include/rpcchannel.h
-google/protobuf/service.h
--
-
 ../src/include/rpcconfig.h
 unordered_map
 -
@@ -22,12 +18,6 @@ string
 yaml-cpp/yaml.h
 -
 iostream
--
-
-../src/include/rpccontroller.h
-google/protobuf/service.h
--
-string
 -
 
 ../src/include/rpcprovider.h
@@ -64,20 +54,6 @@ google/protobuf/repeated_field.h
 google/protobuf/extension_set.h
 -
 google/protobuf/unknown_field_set.h
--
-
-/home/smile/my_file/aprpc/src/rpcchannel.cpp
-rpcchannel.h
-/home/smile/my_file/aprpc/src/rpcchannel.h
-google/protobuf/descriptor.h
--
-rpcheader.pb.h
-/home/smile/my_file/aprpc/src/rpcheader.pb.h
-rpcapplication.h
-/home/smile/my_file/aprpc/src/rpcapplication.h
-rpccontroller.h
-/home/smile/my_file/aprpc/src/rpccontroller.h
-boost/asio.hpp
 -
 
 /home/smile/my_file/aprpc/src/rpcprovider.cpp
