@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter   CMakeFiles/consumer.dir/calluserservice.cpp.o CMakeFiles/consumer.dir/__/proto_gen/user.pb.cc.o  -o ../../../bin/consumer   -L/home/smile/my_file/aprpc/lib  -Wl,-rpath,/home/smile/my_file/aprpc/lib ../../../lib/librpc.a -lprotobuf -lpthread /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6.2 -lmuduo_net -lmuduo_base -lpthread 

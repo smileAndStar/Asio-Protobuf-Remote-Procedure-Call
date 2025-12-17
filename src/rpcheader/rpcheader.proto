@@ -1,0 +1,13 @@
+syntax = "proto3";
+package rpcheader;
+
+/* 在框架内部，RpcProvider 和 RpcConsumer 确定好通信的 protobuf 数据头格式:
+   service_name + method_name + args_size
+   定义 proto 的 message 结构,从而进行序列化和反序列化
+*/
+
+message RpcHeader {
+    bytes service_name = 1;
+    bytes method_name = 2;
+    uint32 args_size = 3;
+}
