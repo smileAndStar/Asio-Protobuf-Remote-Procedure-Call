@@ -1,0 +1,7 @@
+# 构建文件
+build/
+**/build/
+*.o
+*.so
+*.a
+*.dylib
